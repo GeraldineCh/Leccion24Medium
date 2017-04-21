@@ -1,0 +1,37 @@
+h2, h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Muli', sans-serif;
+}
+
+.caja {
+	width: 220px;
+	height: 270px;
+	box-shadow: 8px 10px 14px -8px #CECECE;
+	float: left;
+	text-align: center;
+	background-color: #F4F1F1;
+	padding-top: 30px;
+	margin: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+h5 {
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+
+.caja:hover {
+	padding-top: 10px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #7AA2F4;
+	-webkit-transform: all .0.5s ease-in-out;
+}
